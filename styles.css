@@ -1,11 +1,27 @@
 /*  your css code here. If applicable */
-.navbar {
-            background-color: #D3D3D3;
-            padding: 10px;
-            list-style: none;
-            display: flex;
-        }
+body {
+  margin: 0;
+  padding: 0;
+}
 
-        .navbar li {
-            margin-right: 1rem;
-        }
+/* Navigation bar */
+.nav-bar {
+  background-color: #D3D3D3;
+  padding: 10px;
+}
+
+.nav-bar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #333;
+}
